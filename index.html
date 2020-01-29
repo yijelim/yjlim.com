@@ -94,16 +94,9 @@
           <div class="flex-item flex-column">
             <h2 class="add-top-margin">Service &amp Teaching</h2>
             <hr>
-			<b>Chair</b>
-			 <ul style="margin-top:-4px;">
-              <li>IEEE Robotics and Automation Society, Boston Chapter: [Starting Summer 2019]</li>
-              <li>2019 MathWorks Research Summit</li>    
-            </ul> 
 			<b>Reviewer</b>
 			 <ul style="margin-top:-4px;">
-              <li>IEEE Transactions on Mechatronics</li>
-              <li> IEEE Conference on Decision and Control (CDC) </li>    
-			  <li> IEEE Conference on Robotics and Automation (ICRA) </li>			  
+			 <li>IEEE Transactions on Mechatronics</li>			  
             </ul> 
 			<b>Teaching Assistant</b> <br>
 				<ul style="margin-top:-25px;">
@@ -123,31 +116,22 @@
           <div class="flex-item flex-column">
             <h2 class="add-top-margin">Selected Research Projects</h2>
             <hr>
-			<h3> Real-Time Area Coverage and Target Localization using Receding-Horizon Ergodic Control  </h3> 
+			<h3> RoNA  </h3> 
        
           </div>
         </div>
+		  
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
-            <img class="image" src="img/ergodic.jpg">
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              This work introduces ergodic iterative Sequential Action Control (iSAC), a model predictive control algorithm for real-time terrain exploration and target localization for nonlinear systems.  
-Ergodic iSAC uses a nonlinear model to control the agent so that the amount of time spent in any given area of the search domain is proportional to the integral of a spatial distribution over that same domain (ergodicity). The algorithm employs hybrid control theory to compute a single control action that optimally improves the ergodic cost at each time step using a receding time horizon. 
-For purposes of terrain exploration/coverage, the area spatial distribution may encode probability of detection in operations such as search-and-rescue, surveillance, hazard detection structures or sites inspection and agricultural spraying. For target localization, the spatial distribution indicates the expected information density (EID), calculated as the expected value of the Fisher Information based on the measurement model for the target. All following examples are coded in C++ and run in real time. See more examples here.
-            </p>
+
           </div>
         </div>
+		  
+		  
+		  
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
-<iframe src="https://player.vimeo.com/video/172921367?autoplay=1&loop=1&title=0&byline=0" width="850" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-         
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-             One of the benefits of this approach is that it can generate trajectories that achieve both exploration and target localization, for cases when the number of targets is unknown. The above video shows two quadrotors (i.e. agents) simultaneously exploring a terrain and localizing random moving targets using ergodic iSAC. Here, the terrain spatial distribution indicates both probability of detection (for exploration) and the expected information density (EID) (for localization). The expected information density (EID) is calculated as the expected value of the Fisher Information based on the measurement model and the targets belief. For target localization, the agent can take bearing-only measurements using an attached gimballed camera always pointing at the direction of gravity. We use an Extended Kalman Filter (EKF) for updating the target's position estimate. We assume no prior behavior model of the targets motion is available. 
-            </p>       
+     
           </div>
         </div>
         
